@@ -14,7 +14,6 @@ logger.setLevel(logging.ERROR)
 from .blocks.options import get_global_option, set_global_option
 from .blocks.source_utils import Source
 from .blocks.utils import load_channel_names_from_file
-from .gui import plot
 from .mdf import MDF, SUPPORTED_VERSIONS
 from .signal import Signal
 from .version import __version__
@@ -33,7 +32,6 @@ __all__ = [
     "load_channel_names_from_file",
     "set_global_option",
     "MDF",
-    "plot",
     "Signal",
     "Source",
     "SUPPORTED_VERSIONS",
